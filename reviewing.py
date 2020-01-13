@@ -3,9 +3,9 @@
 import pdb
 import random
 
-import json
-with open('klc.json', encoding='utf8') as review_file:
-    raw_file = json.load(review_file)
+#import json
+#with open('klc.json', encoding='utf8') as review_file:
+#    raw_file = json.load(review_file)
 
 
 class Review:
@@ -57,9 +57,9 @@ class Review:
             return 'congrats'
 
 
-test = Review(raw_file,1,5)
-print(test.shuffle())
-print(test.shuffle())
-print(test.shuffle())
-print(test.shuffle())
-print(test.shuffle())
+# test = Review(raw_file,1,5)
+# print(test.shuffle())
+# print(test.shuffle())
+# print(test.shuffle())
+# print(test.shuffle())
+# print(test.shuffle())
